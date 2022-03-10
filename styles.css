@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Syne+Mono&display=swap');
+
+
+* {
+    margin: 0
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    background-color: #362204;
+    background-position: 0 1000px;
+    font-family: 'Syne Mono';
+    font-size: medium;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+span {
+    color: chocolate;
+}
+h1 {
+    font-family: 'Staatliches';
+    color: #FFFDD0;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+h2 {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3, h4, h5 {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFDD0
+}
+
+
+
+
+
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 15px;
+    font-size: medium;
+    font-family: 'Staatliches';
+
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-weight: lighter;
+    text-transform: capitalize;
+    padding: 8px 8px 8px 8px;
+    background: black;
+    border: 1px solid transparent;
+    border-bottom: none;
+    
+
+}
+
+nav ul li :hover{
+    color: orangered;
+    transition: .4s;
+}
+
+.btn {
+    color:white;
+    text-decoration: none;
+    font-weight: lighter;
+    text-transform: capitalize;
+    padding: 8px 8px 8px 8px;
+    background: black;
+    border: 1px solid transparent;
+    border-bottom: none;
+}
